@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="scientific" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/shortcut_scientific">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmalmulla.calculator"
+            android:targetClass="com.hmalmulla.calculator.MainActivity">
+            <extra android:name="route" android:value="scientific" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="converter" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/shortcut_converter">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmalmulla.calculator"
+            android:targetClass="com.hmalmulla.calculator.MainActivity">
+            <extra android:name="route" android:value="converter" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="finance" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/shortcut_finance">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmalmulla.calculator"
+            android:targetClass="com.hmalmulla.calculator.MainActivity">
+            <extra android:name="route" android:value="finance" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="history" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/shortcut_history">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmalmulla.calculator"
+            android:targetClass="com.hmalmulla.calculator.MainActivity">
+            <extra android:name="route" android:value="history" />
+        </intent>
+    </shortcut>
+</shortcuts>

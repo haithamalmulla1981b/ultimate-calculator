@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ultimate Calculator</string>
+    <string name="widget_name">Quick calculator</string>
+    <string name="shortcut_scientific">Scientific</string>
+    <string name="shortcut_converter">Converter</string>
+    <string name="shortcut_finance">Finance</string>
+    <string name="shortcut_history">History</string>
+</resources>
