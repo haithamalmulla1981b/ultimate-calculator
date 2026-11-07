@@ -28,7 +28,7 @@ converter uses the internet.
 
 ## Build
 
-Requirements: Android Studio (Ladybug or newer) or JDK 17 + Android SDK 35.
+Requirements: Android Studio (Narwhal or newer) or JDK 17 + Android SDK 36.
 
 ```bash
 # debug APK
@@ -40,7 +40,7 @@ gradle connectedDebugAndroidTest
 ```
 
 Open the folder in Android Studio to use its bundled Gradle; the project pins
-AGP 8.7.3, Kotlin 2.0.21 and Gradle 8.11.1 (used by CI). GitHub Actions builds
+AGP 8.11.1, Kotlin 2.0.21 and Gradle 8.14.3 (target API 36, as Google Play requires) (used by CI). GitHub Actions builds
 every push, runs the unit tests and publishes the debug APK under **Releases**.
 
 ## Release (Google Play)

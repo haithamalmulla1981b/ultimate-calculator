@@ -112,7 +112,7 @@ fun SettingsScreen() {
 
         HorizontalDivider(Modifier.padding(vertical = 8.dp))
         OutlinedButton(onClick = { confirmReset = true }) { Text("Reset all settings") }
-        Text("Version 1.0.0", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 12.dp))
+        Text("Version 1.0.0\nDeveloped by : H.M.Al-Mulla", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 12.dp))
     }
 
     if (confirmReset) {
